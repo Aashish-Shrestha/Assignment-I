@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.photos1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.photos1 img{
+    transition:2s;
+    border-radius: 10px;
+
+}
+
+.photos1 img:hover{
+    border-radius: 10px;
+    box-shadow: 30px 30px 50px 0px black;
+    transition:2s;
+
+}

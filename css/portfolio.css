@@ -30,3 +30,12 @@
     transition:2s;
 
 }
+@media screen and (max-width:768px) {
+.photos{
+    width: 100%;
+    flex-direction: column;
+}
+.photos1 img{
+   margin-bottom: 20px;
+}
+}

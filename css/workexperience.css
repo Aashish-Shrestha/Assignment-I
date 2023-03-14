@@ -44,3 +44,12 @@ position: relative;
     margin-top:50px ;
     margin-left: 20px;
 }
+@media screen and (max-width:768px) {
+.work1{
+    
+height: 500px;
+width: 400px;
+position: relative;
+ justify-content: space-between;
+}
+}

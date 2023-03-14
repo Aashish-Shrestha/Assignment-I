@@ -19,3 +19,9 @@
 -webkit-background-clip: text;
 color: transparent;
 } 
+@media screen and (max-width:768px) {
+    .intro{
+        margin: 100 10 0 10 ;
+        font-size: 20px;
+    }
+}

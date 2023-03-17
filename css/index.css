@@ -3,25 +3,55 @@
     padding: 0;
 }
 .intro{
-    margin: 100 20 30 300;
+    margin: 100px 20px 30px 30px;
     color: white;
     position: relative;
     justify-content: center;
     border-left:5px solid aqua ;
     font-size: 30px;
     padding-left: 20px;
-    
+    border-radius: 1px;
+   
  
 }
+.bio{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: left;
+    margin-top:50px;
+    margin:50px 0 20px 20px;
+}
+span{
+    color: aqua;
+    font-size: 40px;
+   
+}
+.clz{
+    font-weight:bold ;
+    color: rgb(3, 178, 242);
+    font-size: 30px;
+}
 .intro h1{
-     background: linear-gradient(to left,
-  rgb(51 170 255), rgb(69 96 167), #5485c9,#2c5fa5, rgb(16, 52, 143), rgb(9, 7, 145) );
--webkit-background-clip: text;
-color: transparent;
-} 
+    background: 
+  linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;  
+  animation: color-change  100s linear infinite;
+}
+@keyframes color-change {
+    to {
+      background-position: 6000px;
+      
+    }
+    
+}
+
+
+
+
 @media screen and (max-width:768px) {
     .intro{
-        margin: 100 10 0 10 ;
+        margin: 100px 10px 0 10px ;
         font-size: 20px;
     }
 }

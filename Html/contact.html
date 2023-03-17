@@ -1,19 +1,20 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
     <title>Contact</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/contact.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div class="body">
         <nav class="nav-bar">
             <a href="index.html"><img src="../Image/me.ico" alt=""></a>
-            <label for="toggle">&#9776</label>
-            <input type="checkbox" id="toggle">
+            <label for="menu"><i class="material-icons">menu</i></label>
+            <input type="checkbox" id="menu">
                 <ul class="nav-ul">
                     <li class="nav-li"><a href="index.html">Home</a></li>
                     <li class="nav-li"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-li"><a href="contact.html">Contact</a></li>
+                    <li class="nav-li"><a href="contact.html" class="active">Contact</a></li>
                     <li class="nav-li"><a href="workexperience.html">Work-experience</a></li>
                     <li class="nav-li"><a href="sitereport.html">Site-report</a></li>
                 </ul>
@@ -29,23 +30,24 @@
     <form class="form">
        <div class="name">
         <input type="text" name="name" placeholder="Your Name" autocomplete="off"></div>
-        <div class="mail"><input type="text" name="email" placeholder="Email" autocomplete="off"></div></br>
+        <div class="mail"><input type="email" id="email" placeholder="Email" autocomplete="off"></div><br>
        
         <div class="gender">
-            Gender:</br>
+            Gender:<br>
             <input type="radio" name="gender" value="male">Male
             <input type="radio" name="gender" value="female">Female</div>
-        <div class="msg"><textarea type="text" name="message" placeholder="Drop your message here"></textarea></div>
+        <div class="msg"><textarea  name="message" placeholder="Drop your message here"></textarea></div>
 
-        <div class="submit"> <input type="submit" value="Submit"></div>
+        <div class="submit"> <input type="submit" value="Submit" onclick="alert(submitted)"></div>
        </form>
 
 </div>
 <div class="my">
-   Email:zorosthaluffy600@gmail.com<br>
-   phone no:9860347349<br>
-location:changu
-
+    <div class="my-bio"><h1>Contact-Details</h1></div><div class="my-contact">
+        <i class="material-icons">email</i>:<b>zorosthaluffy600@gmail.com</b><br>
+        <i class="material-icons">phone</i>:<b>+977-9860347349</b><br>
+        <i class="material-icons">location_on</i>:<b>Changunarayan-1,Bhaktapur</b> 
+</div>
    
 </div>
 
